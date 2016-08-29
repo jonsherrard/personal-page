@@ -1,37 +1,60 @@
-import React, { Component } from 'react'
-import Header from './Header'
+import React from 'react'
 import Statement from './Statement'
 import Footer from './Footer'
+import Section from './Section'
+import HorizontalChildren from './HorizontalChildren'
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Header
-          title="Jonathon Sherrard."
-          subtitle="Lead Developer & Tech Consultant."
-        />
-        <section className="bg-black-70 light-gray f3 fw5 ph3 ph3-ns ph4-m ph4-l pv6 mt0 db cf lh-title lh-copy-m">
-          <h2 className="lh-title f2 fw5 f-subheadline-l">
-            The perfect software project:
-          </h2>
-          <Statement>
-            Iterating towards simplicity.
-          </Statement>
-          <Statement>
-            Empowering developers.
-          </Statement>
-          <Statement>
-            Predictability, then features.
-          </Statement>
-          <Statement>
-            User testing, and intuition.
-          </Statement>
-        </section>
-        <Footer />
-      </div>
-    )
-  }
-}
+const App = (props) =>
+  <article>
+    <Section
+      title="Jonathon Sherrard"
+      subtitle="Lead Developer & Tech Consultant"
+    >
+      <h3 className="f3 fw5">@Shortlist Media, London</h3>
+    </Section>
+
+    <Section
+      background="black-80"
+      color="white-80"
+      title="An exemplary software project"
+    >
+      <HorizontalChildren>
+        <Statement>
+          Iterates towards simplicity.
+        </Statement>
+        <Statement>
+          Empowers developers.
+        </Statement>
+        <Statement>
+          Predictable, then feature-rich.
+        </Statement>
+        <Statement>
+          Designed by data, <em>and</em> intuition.
+        </Statement>
+      </HorizontalChildren>
+    </Section>
+
+    <Section
+      background="yellow"
+      color="black-80"
+      title="The ideal codebase"
+    >
+      <HorizontalChildren>
+        <Statement>
+          Seperates concerns, not file formats.
+        </Statement>
+        <Statement>
+          Considers choice of ecosystem, then framework.
+        </Statement>
+        <Statement>
+          Bets on open source, but leverages proven paid integrations.
+        </Statement>
+        <Statement>
+          Refactors code for readibility, before documentation.
+        </Statement>
+      </HorizontalChildren>
+    </Section>
+    <Footer />
+  </article>
 
 export default App
