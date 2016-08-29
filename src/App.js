@@ -12,7 +12,7 @@ const App = (props) =>
       title="Jonathon Sherrard"
       subtitle="Lead Developer & Technology Consultant"
     >
-      <h3 className="f3 fw5 ttu tracked">Shortlist Media, London</h3>
+      <h3 className="f4 fw5 ttu tracked">Shortlist Media, London</h3>
     </Section>
 
     <Section
@@ -28,7 +28,7 @@ const App = (props) =>
           Empowers developers.
         </Statement>
         <Statement>
-          Predictable, then feature-rich.
+          Is predictable, then feature-rich.
         </Statement>
         <Statement>
           Designed by data, <em>and</em> intuition.
