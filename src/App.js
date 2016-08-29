@@ -7,10 +7,12 @@ import HorizontalChildren from './HorizontalChildren'
 const App = (props) =>
   <article>
     <Section
+      background="washed-green"
+      color="purple"
       title="Jonathon Sherrard"
-      subtitle="Lead Developer & Tech Consultant"
+      subtitle="Lead Developer & Technology Consultant"
     >
-      <h3 className="f3 fw5">@Shortlist Media, London</h3>
+      <h3 className="f3 fw5 ttu tracked">Shortlist Media, London</h3>
     </Section>
 
     <Section
