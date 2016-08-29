@@ -11,9 +11,7 @@ const App = (props) =>
       color="yellow"
       title="Jonathon Sherrard"
       subtitle="Lead Developer & Technology Consultant"
-    >
-      <h3 className="f4 fw5 ttu tracked">Shortlist Media, London</h3>
-    </Section>
+    />
 
     <Section
       background="black-80"
