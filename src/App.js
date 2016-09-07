@@ -7,8 +7,8 @@ import HorizontalChildren from './HorizontalChildren'
 const App = (props) =>
   <article>
     <Section
-      background="silver"
-      color="yellow"
+      background="yellow"
+      color="black-80"
       title="Jonathon Sherrard"
       subtitle="Lead Developer & Technology Consultant"
     />
@@ -35,8 +35,8 @@ const App = (props) =>
     </Section>
 
     <Section
-      background="yellow"
-      color="black-80"
+      background="silver"
+      color="yellow"
       title="The ideal codebase"
     >
       <HorizontalChildren>
