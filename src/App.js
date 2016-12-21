@@ -10,7 +10,7 @@ const App = (props) =>
       background="yellow"
       color="black-80"
       title="Jonathon Sherrard"
-      subtitle="Lead Developer & Technology Consultant"
+      subtitle="Technical Architect & Technology Consultant"
     />
 
     <Section
