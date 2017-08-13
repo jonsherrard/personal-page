@@ -41,7 +41,7 @@ const App = (props) =>
     >
       <HorizontalChildren>
         <Statement>
-          Seperates concerns, not file formats.
+          Separates concerns, not file formats.
         </Statement>
         <Statement>
           Considers choice of ecosystem, then framework.
@@ -50,7 +50,7 @@ const App = (props) =>
           Bets on open source, but leverages proven paid integrations.
         </Statement>
         <Statement>
-          Refactors code for readibility, before documentation.
+          Refactors code for readability, before documentation.
         </Statement>
       </HorizontalChildren>
     </Section>
